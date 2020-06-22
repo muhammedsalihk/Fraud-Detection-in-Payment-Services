@@ -24,6 +24,6 @@ The data was divided into three sets (train, dev and test) in an 90-5-5 ratio. W
 The evaluation metric used for determining the performance of the models was F1 score. Accuracy, although very intuitive, couldn’t be employed owing the to the imbalance in the dataset.
 
 ## Results
-The modelling was done using XGBoost and the dev set was used to tune the hyperparameters. Owing to the engineering of a new features that were highly indicative of fraud, a high performing model could be developed.
+The modelling was done using XGBoost and the dev set was used to tune the hyperparameters. Owing to the engineering of new features that were highly indicative of fraud, a high performing model could be developed.
 
 An **F1 score of 0.9987** was obtained on the test set using the developed model.
