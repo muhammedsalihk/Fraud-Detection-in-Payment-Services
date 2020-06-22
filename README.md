@@ -6,7 +6,7 @@ In the financial services sector, fraud prevention is a very important facet of 
 In this project, we are trying to build a fraud prevention system for a mobile payments service using the XGBoost library.
 
 ## Data Description
-The dataset contains 10 features which includes some the type of transaction, information on the origin and destination account balances, the transaction amount, time of transaction etc. This is a synthetic data set developed by E. A. Lopez-Rojas , A. Elmir, and S. Axelsson as part of the research project ”Scalable resource-efficient systems for big data analytics”.
+The dataset contains 10 features which includes some the type of transaction, information on the origin and destination account balances, the transaction amount, time of transaction etc. This is a synthetic data set developed by E. A. Lopez-Rojas, A. Elmir, and S. Axelsson as part of the research project ”Scalable resource-efficient systems for big data analytics”.
 
 ![Initial DF](https://github.com/muhammedsalihk/Fraud-Detection-in-Payment-Services/blob/master/Images/Initial%20DF.png)
 
@@ -26,4 +26,4 @@ The evaluation metric used for determining the performance of the models was F1 
 ## Results
 The modelling was done using XGBoost and the dev set was used to tune the hyperparameters. Owing to the engineering of new features that were highly indicative of fraud, a high performing model could be developed.
 
-An **F1 score of 0.9987** was obtained on the test set using the developed model.
+An F1 score of **0.9987** was obtained on the test set using the developed model.
